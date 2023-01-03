@@ -90,4 +90,9 @@ def main():
     print(start_training(char_name, char_class))
 
 
+# MyPy test
+def some_stuff() -> int:
+    return None
+
+
 main()
